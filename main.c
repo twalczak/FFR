@@ -1,6 +1,12 @@
 #include <stdio.h>
+#include <avr/io.h>
+#include <avr/delay.h>
 
-int main(void)
+void main(void)
 {
-	return 0;
+	initPWM();
+	while(1)
+	{
+		//TODO: ROBOT TIME
+	}
 }
